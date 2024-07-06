@@ -1,0 +1,113 @@
+/*стартовая позиция*/
+
+.wrapper-team__animation-brain-left {
+    transform: translateY(0px) translateX(-4px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+.wrapper-team__animation-brain-right {
+    transform: translateY(-48.5px) translateX(16.5px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+.wrapper-team__animation-number-firstF{
+    transform: translateY(-96.5px) translateX(32px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+.wrapper-team__animation-number-firstS{
+    transform: translateY(-145px) translateX(38px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+.wrapper-team__animation-number-firstT{
+    transform: translateY(-193px) translateX(44px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+
+/*цифры в мозг*/
+
+.wrapper-team__animation-number-firstF_pushed {
+    transform: translateY(-96.5px) translateX(-9px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+.wrapper-team__animation-number-firstS_pushed {
+    transform: translateY(-145px) translateX(-3px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+.wrapper-team__animation-number-firstT_pushed {
+    transform: translateY(-193px) translateX(3px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+/*полушарие растворяется*/
+
+.wrapper-team__animation-brain-left_blured {
+    transition: 1s;
+    filter: blur(8px);
+}
+
+/*красим всё*/
+
+.wrapper-team__animation-brain-right_colored {
+    transition: 1s;
+    fill: #2E2ECC;
+}
+
+.wrapper-team__animation-number-firstF_colored {
+    transition: 1s;
+    fill: #2E2ECC;
+}
+
+.wrapper-team__animation-number-firstS_colored {
+    transition: 1s;
+    fill: #2E2ECC;
+}
+
+.wrapper-team__animation-number-firstT_colored {
+    transition: 1s;
+    fill: #2E2ECC;
+}
+
+/*
+
+.wrapper-team__animation-brain-left {
+    transform: translateY(0px) translateX(-4px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+.wrapper-team__animation-brain-right {
+    transform: translateY(-48.5px) translateX(16.5px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+.wrapper-team__animation-number-firstF{
+    transform: translateY(-96.5px) translateX(32px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+.wrapper-team__animation-number-firstS{
+    transform: translateY(-145px) translateX(38px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+.wrapper-team__animation-number-firstT{
+    transform: translateY(-193px) translateX(44px);
+    transition: 1s;
+    fill: #3C3C4F;
+}*/

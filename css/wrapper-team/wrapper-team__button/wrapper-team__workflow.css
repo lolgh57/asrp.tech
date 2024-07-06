@@ -1,0 +1,77 @@
+/*стандартная позиция*/
+
+.wrapper-team__workflow-scroll-left {
+    transform: translateY(0px) translateX(28px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+.wrapper-team__workflow-scroll-right {
+    transform: translateY(-48px) translateX(37px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+.wrapper-team__workflow-scroll-paper {
+    transform: translateY(-88.5px) translateX(6px);
+    transition: 1s;
+    fill: #3C3C4F;
+    opacity: 0;
+}
+.wrapper-team__workflow-spiral {
+    transform: translateY(-116px) translateX(13px);
+    transition: 1s;
+    fill: #3C3C4F;
+    opacity: 0;
+}
+.wrapper-team__workflow-number {
+    transform: translateY(-152px) translateX(50px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+/*толкнули*/
+
+
+.wrapper-team__workflow-scroll-left_pushed {
+    transform: translateY(0px) translateX(-2px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+.wrapper-team__workflow-scroll-right_pushed {
+    transform: translateY(-48px) translateX(37px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+.wrapper-team__workflow-scroll-paper_pushed {
+    opacity: 1;
+    transition: 1s;
+    fill: #3C3C4F;
+}
+.wrapper-team__workflow-spiral_pushed {
+    transition: 1s;
+    fill: #3C3C4F;
+    opacity: 1;
+}
+
+
+/*покрасили*/
+
+.wrapper-team__workflow-scroll-left_colored {
+    transition: 1s;
+    fill: #2C96FF;
+}
+.wrapper-team__workflow-scroll-right_colored {
+    transition: 1s;
+    fill: #2C96FF;
+}
+.wrapper-team__workflow-scroll-paper_colored {
+    transition: 1s;
+    fill: #2C96FF;
+}
+.wrapper-team__workflow-spiral_colored {
+    transition: 1s;
+    fill: #2C96FF;
+}
+.wrapper-team__workflow-number_colored {
+    transition: 1s;
+    fill: #2C96FF;
+}

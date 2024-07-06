@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    font-family: 'Bungee Hairline', cursive;
+    background-color: black;
+}
+
+
+.wrapper {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.zero-opacity {
+    opacity: 0;
+    transition: 1s;
+}
+
+.hide-element {
+    display: none;
+    transition: 1s;
+}

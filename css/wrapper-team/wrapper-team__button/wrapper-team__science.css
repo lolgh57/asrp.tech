@@ -1,0 +1,67 @@
+/*стартовая позиция*/
+
+.wrapper-team__science-brain-left {
+    transform: translateY(0px) translateX(-4px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+.wrapper-team__science-brain-right {
+    transform: translateY(-48.5px) translateX(16.5px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+.wrapper-team__science-number-fifteen {
+    transform: translateY(-96.5px) translateX(45.5px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+/*цифры в мозг*/
+
+.wrapper-team__science-number-fifteen_pushed {
+    transform: translateY(-96.5px) translateX(23px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+/*полушарие растворяется*/
+
+.wrapper-team__science-brain-right_blured {
+    transition: 1s;
+    filter: blur(8px);
+}
+
+/*анимация моргания мозга и цифер*/
+
+.wrapper-team__science-brain-left_blinking {
+    animation: blinking 0.5s;
+}
+
+.wrapper-team__science-number-fifteen_blinking {
+    animation: blinking 0.5s;
+}
+
+@keyframes blinking {
+    0%, 100% {
+        fill: #2E2ECC;
+        transition: 10s;
+    }
+    10%, 30%, 50%, 70% {
+        fill: #2E2ECC;
+    }
+    20%, 40%, 60%  {
+        fill: #3C3C4F;
+    }
+}
+
+/*окрашено*/
+
+.wrapper-team__science-brain-left_colored {
+    fill: #2E2ECC;
+}
+
+.wrapper-team__science-number-fifteen_colored {
+    fill: #2E2ECC;
+}

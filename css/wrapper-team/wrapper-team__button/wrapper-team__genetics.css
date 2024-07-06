@@ -1,0 +1,134 @@
+/*стартовая позиция*/
+
+.wrapper-team__dna-left {
+    transform: translateY(0px) translateX(5px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+.wrapper-team__dna-right {
+    transform: translateY(-48.5px) translateX(5px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+.wrapper-team__dna-string-first {
+    transform: translateY(-116px) translateX(7.5px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+.wrapper-team__dna-string-second {
+    transform: translateY(-158px) translateX(11px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+.wrapper-team__dna-string-thirt {
+    transform: translateY(-200px) translateX(16px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+.wrapper-team__dna-string-four {
+    transform: translateY(-236.6px) translateX(16px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+.wrapper-team__dna-string-five {
+    transform: translateY(-279px) translateX(11px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+.wrapper-team__dna-string-six {
+    transform: translateY(-322px) translateX(7.5px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+/*позиция при наведении*/
+
+.wrapper-team__dna-left_pushed {
+    transform: translateY(0px) translateX(0px);
+    transition: 0.2s;
+}
+
+.wrapper-team__dna-right_pushed {
+    transform: translateY(-48.5px) translateX(10px);
+    transition: 0.2s;
+}
+
+.wrapper-team__dna-string-first_pushed {
+    transform: translateY(-121px) translateX(7.5px);
+    transition: 1s;
+}
+
+.wrapper-team__dna-string-second_pushed {
+    transform: translateY(-163px) translateX(11px);
+    transition: 1s;
+}
+
+.wrapper-team__dna-string-thirt_pushed {
+    transform: translateY(-205px) translateX(16px);
+    transition: 1s;
+}
+
+.wrapper-team__dna-string-four_pushed {
+    transform: translateY(-226.6px) translateX(16px);
+    transition: 1s;
+}
+
+.wrapper-team__dna-string-five_pushed {
+    transform: translateY(-269px) translateX(11px);
+    transition: 1s;
+}
+
+.wrapper-team__dna-string-six_pushed {
+    transform: translateY(-312px) translateX(7.5px);
+    transition: 1s;
+}
+
+
+/*окрашивание*/
+
+.wrapper-team__dna-left_colored {
+    transition: 1s;
+    fill: #BD0D38;
+}
+
+.wrapper-team__dna-right_colored {
+    transition: 1s;
+    fill: #BD0D38;
+}
+
+.wrapper-team__dna-string-first_colored {
+    transition: 1s;
+    fill: #FF7226;
+}
+
+.wrapper-team__dna-string-second_colored {
+    transition: 1s;
+    fill: #FF7226;
+}
+
+.wrapper-team__dna-string-thirt_colored {
+    transition: 1s;
+    fill: #FF7226;
+}
+
+.wrapper-team__dna-string-four_colored {
+    transition: 1s;
+    fill: #FF7226;
+}
+
+.wrapper-team__dna-string-five_colored {
+    transition: 1s;
+    fill: #FF7226;
+}
+
+.wrapper-team__dna-string-six_colored {
+    transition: 1s;
+    fill: #FF7226;
+}

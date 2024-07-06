@@ -1,0 +1,87 @@
+.wrapper__menu-button {
+    display: flex;
+    width: 33px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: 70px;
+    cursor: pointer;
+    justify-content: space-between;
+    transition: 1s;
+}
+
+.wrapper__menu-button_push_left {
+    margin-left: auto;
+    margin-right: 90%;
+    transition: 1s;
+}
+
+.wrapper__button-circle {
+    width: 3px;
+	height: 30px;
+    border-radius: 20px / 190px;
+    background: #E6E6E6;
+    transform: rotate(35deg);
+    transition: 2s;
+}
+
+.wrapper__button-circle_bottom {
+    transform: rotate(34deg) translateX(-8.3px) translateY(5.3px);
+}
+
+.wrapper__button-circle_right_transform {
+    transform: rotate(-31deg) translateX(3px);
+}
+
+.wrapper__button-circle_middle_transform {
+    transform: rotate(31deg) translateX(-3px);
+}
+
+.wrapper__button-circle_left_transform {
+    transform: rotate(-90deg) translateY(15px);
+}
+
+.wrapper__button-circle_bottom_transform {
+    transform: rotate(-90deg) translateY(-14.6px) translateX(-12px);
+}
+
+/*
+.wrapper__button-circle {
+    width: 3px;
+	height: 30px;
+    border-radius: 20px / 190px;
+    background: #E6E6E6;
+    transition: 2s;
+}
+
+.wrapper__button-circle_right {
+    position: absolute;
+    top: 0;
+    right: 75px;
+    
+    transform: rotate(-31deg);
+}
+
+.wrapper__button-circle_middle {
+    position: absolute;
+    top: 0;
+    right: 91px;
+    
+    transform: rotate(31deg);
+}
+
+.wrapper__button-circle_left {
+    position: absolute;
+    top: 2.1px;
+    right: 82.6px;
+    
+    transform: rotate(-90deg);
+}
+
+.wrapper__button-circle_bottom {
+    position: absolute;
+    top: 12.5px;
+    right: 83px;
+    
+    transform: rotate(-90deg);
+}
+*/

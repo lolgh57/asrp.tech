@@ -1,0 +1,228 @@
+/*стартовая позиция*/
+.wrapper-team__education-face {
+    transform: translateY(-54px) translateX(-10px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+.wrapper-team__education-eye {
+    width: 4px;
+    height: 4px;
+    transform: translateY(-102px) translateX(19px);
+    transition: 1s;
+    fill: #ffffff;
+}
+
+.wrapper-team__education-face-left-side {
+    transform: translateY(-75px) translateX(8.5px);
+    transition: 1s;
+    fill: #ffffff;
+}
+
+.wrapper-team__education-circle-first {
+    transform: translateY(15px) translateX(-18px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+.wrapper-team__education-circle-second {
+    transform: translateY(-28px) translateX(-13px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+.wrapper-team__education-circle-thirt {
+    transform: translateY(-33px) translateX(40px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+.wrapper-team__education-number-twentytwo {
+    transform: translateY(-125px) translateX(48px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+/*анимация тряски*/
+
+.wrapper-team__education-face_shaked {
+    animation: shakeFace 1s;
+}
+
+.wrapper-team__education-eye_shaked {
+    animation: shakeEye 1s;
+}
+
+.wrapper-team__education-face-left-side_shaked {
+    animation: shakeFaceLeftSide 1s;
+}
+
+.wrapper-team__education-circle-first_shaked {
+    animation: shakeCircleFirst 1s;
+}
+
+.wrapper-team__education-circle-second_shaked {
+    animation: shakeCircleSecond 1s;
+}
+
+.wrapper-team__education-circle-thirt_shaked {
+    animation: shakeCircleThirt 1s;
+}
+
+
+@keyframes shakeFace {
+    0%, 100% {
+        transform: translateY(-54px)  translateX(-10px);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translateY(-49px)  translateX(-10px);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translateY(-59px)  translateX(-10px);
+    }
+}
+
+@keyframes shakeFaceLeftSide {
+    0%, 100% {
+        transform: translateY(-75px) translateX(8.5px);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translateY(-70px) translateX(8.5px);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translateY(-50px) translateX(8.5px);
+    }
+}
+
+@keyframes shakeEye {
+    0%, 100% {
+        transform: translateY(-102px) translateX(19px);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translateY(-97px) translateX(19px);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translateY(-107px) translateX(19px);
+    }
+}
+
+@keyframes shakeCircleFirst {
+    0%, 100% {
+        transform: translateY(15px) translateX(-18px);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translateY(20px) translateX(-18px);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translateY(10px) translateX(-18px);
+    }
+}
+
+@keyframes shakeCircleSecond {
+    0%, 100% {
+        transform: translateY(-28px) translateX(-13px);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translateY(-23px) translateX(-13px);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translateY(-33px) translateX(-13px);
+    }
+}
+
+@keyframes shakeCircleThirt {
+    0%, 100% {       
+        transform: translateY(-33px) translateX(40px);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translateY(-28px) translateX(40px);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translateY(-38px) translateX(40px);
+    }
+}
+
+/*окрашено*/
+
+.wrapper-team__education-face_colored {
+    transition: 1s;
+    fill: #BD0D38;
+}
+
+.wrapper-team__education-eye_colored {
+    transition: 1s;
+    fill: #ffffff;
+}
+
+.wrapper-team__education-face-left-side_colored {
+    transition: 1s;
+    fill: #ffffff;
+}
+
+.wrapper-team__education-circle-first_colored {
+    transition: 1s;
+    fill: #BD0D38;
+}
+
+.wrapper-team__education-circle-second_colored {
+    transition: 1s;
+    fill: #BD0D38;
+}
+
+.wrapper-team__education-circle-thirt_colored {
+    transition: 1s;
+    fill: #BD0D38;
+}
+
+.wrapper-team__education-number-twentytwo_colored {
+    transition: 1s;
+    fill: #BD0D38;
+}
+
+
+/*
+
+
+.wrapper-team__education-face {
+    transform: translateY(-54px) translateX(-10px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+.wrapper-team__education-eye {
+    width: 4px;
+    height: 4px;
+    transform: translateY(-102px) translateX(19px);
+    transition: 1s;
+    fill: #ffffff;
+}
+
+.wrapper-team__education-face-left-side {
+    transform: translateY(-75px) translateX(8.5px);
+    transition: 1s;
+    fill: #ffffff;
+}
+
+.wrapper-team__education-circle-first {
+    transform: translateY(15px) translateX(-18px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+.wrapper-team__education-circle-second {
+    transform: translateY(-28px) translateX(-13px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+.wrapper-team__education-circle-thirt {
+    transform: translateY(-33px) translateX(40px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+.wrapper-team__education-number-twentytwo {
+    transform: translateY(-125px) translateX(48px);
+    transition: 1s;
+    fill: #3C3C4F;
+}*/

@@ -1,0 +1,144 @@
+/*стартовая позиция*/
+
+.wrapper-team__production-brain-left {
+    transform: translateY(0px) translateX(-4px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+.wrapper-team__production-brain-right {
+    transform: translateY(-48.5px) translateX(16.5px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+.wrapper-team__production-number-one {
+    transform: translateY(-96.5px) translateX(32px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+.wrapper-team__production-nolive-principle-first {
+    transform: translateY(-150px) translateX(6.5px);
+    transition: 1s;
+    fill: #3C3C4F;
+    opacity: 0;
+}
+
+.wrapper-team__production-nolive-principle-second {
+    width: 30px;
+    height: 30px;
+    transform: translateY(-198.5px) translateX(6.5px); 
+    transition: 1s;
+    fill: #3C3C4F;
+    opacity: 0;
+}
+
+/*крутим второй квадрат*/
+.wrapper-team__production-nolive-principle-second_spined {
+    animation: spin 6s;
+}
+
+/*квадратики видно*/
+.wrapper-team__production-nolive-principle-first_up {
+    transform: translateY(-193px) translateX(6.5px);
+    transition: 1s;
+    fill: #3C3C4F;
+    opacity: 1;
+}
+
+.wrapper-team__production-nolive-principle-second_up {
+    width: 30px;
+    height: 30px;
+    transform: translateY(-241.5px) translateX(6.5px); 
+    transition: 1s;
+    fill: #3C3C4F;
+    opacity: 1;
+}
+
+/*анимация вращения*/
+
+@keyframes spin {
+    12.5% {
+        fill: #3C3C4F;
+       transform: translateY(-241.5px) translateX(2px)  rotate(-45deg);  
+    }
+    25% {
+        fill: #BD0D38;
+        transform: translateY(-235.5px) translateX(-1.9px) rotate(-90deg); 
+    }
+    37.5% {
+        fill: #BD0D38;
+        transform: translateY(-230.5px) translateX(0px) rotate(-135deg);
+    }
+    50% {
+        fill: #BD0D38;
+        transform: translateY(-226.5px) translateX(5px) rotate(-180deg);
+    }
+    62.5% {
+        fill: #BD0D38;
+        transform: translateY(-228.5px) translateX(10px) rotate(-225deg);
+    }
+    75% {
+        fill: #BD0D38;
+        transform: translateY(-233px) translateX(13px) rotate(-270deg);
+    }
+    87.5% {
+        fill: #BD0D38;
+       transform: translateY(-239px) translateX(12px) rotate(-315deg);
+    }
+    100% {
+       fill: #3C3C4F;
+       transform: translateY(-241.5px) translateX(6.5px) rotate(-360deg);
+    }
+}
+
+/*толкнули единицу*/
+
+.wrapper-team__production-number-one_pushed {
+    transform: translateY(-96.5px) translateX(-15px);
+    opacity: 0;
+    transition: 1s;
+}
+
+/*толкнули квадрат*/
+
+.wrapper-team__production-nolive-principle-second_rotate {
+    transform: translateY(-249.5px) translateX(5.5px) rotate(-45deg);
+    transition: 1s;
+    fill: #BD0D38;
+}
+
+/*окрашено*/
+
+.wrapper-team__production-brain-left_colored {
+    fill: #FFD700;
+}
+
+.wrapper-team__production-brain-right_colored {
+    fill: #FFD700;
+}
+
+.wrapper-team__production-number-one_colored {
+    fill: #E545D6;
+}
+
+
+/*
+.wrapper-team__production-brain-left {
+    transform: translateY(0px) translateX(-4px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+.wrapper-team__production-brain-right {
+    transform: translateY(-48.5px) translateX(16.5px);
+    transition: 1s;
+    fill: #3C3C4F;
+}
+
+.wrapper-team__production-number-one {
+    transform: translateY(-96.5px) translateX(32px);
+    transition: 1s;
+    fill: #3C3C4F;
+}*/

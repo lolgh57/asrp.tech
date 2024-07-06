@@ -1,0 +1,16 @@
+.products__elem1 {
+    transform: translateY(5.5px);
+    transition: 1s;
+}
+
+.products__elem2 {
+    transform: translateY(-33.2px) rotate(2deg);
+    transition: 1s;
+    opacity: 0;
+}
+
+.products__elem2_push {
+    transform: translateY(-37.2px) rotate(-45deg);
+    transition: 1s;
+    opacity: 1;
+}
