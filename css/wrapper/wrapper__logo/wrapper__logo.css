@@ -1,35 +1,36 @@
 .wrapper__logo {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-width: 300px;
+  transition: 1s;
 }
 
 .logo-title {
-    display: block;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-left: 70px;
-    text-align: left;
-    color: #fefefe;
-    font-size: 1.3em;
-    line-height: 1.5;
-    transition: 2s;
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 70px;
+  text-align: left;
+  color: #fefefe;
+  font-size: 1.3em;
+  line-height: 1.5;
+  transition: 2s;
 }
 
 .logo-title_hover {
-    cursor: default;
-    opacity: .08;
-    transition: 8s;
+  cursor: default;
+  opacity: 0.08;
+  transition: 8s;
 }
 
 .logo-title_hover:hover {
-    cursor: default;
-    opacity: 1;
-    transition: 1s;
+  cursor: default;
+  opacity: 1;
+  transition: 1s;
 }
 
 .logo-title_lumen {
-    opacity: 1;
-    transition: 1s;
+  opacity: 1;
+  transition: 1s;
 }
