@@ -1,8 +1,31 @@
 .wrapper-team__button {
-    width: 75px;
-    height: 45px;
-    margin:auto;
-    cursor: pointer;
-/*    background-color: burlywood;*/
+  width: 75px;
+  height: 45px;
+  margin: auto;
+  cursor: pointer;
+  /*    background-color: burlywood;*/
 }
 
+@media (max-width: 768px) {
+  .wrapper-team {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .wrapper-team__button {
+    flex: 0 0 22%; /* Устанавливаем ширину для равномерного распределения */
+    margin: 10px;
+  }
+  .wrapper-team__button:nth-child(4) {
+    order: 1;
+  }
+  .wrapper-team__button:nth-child(5) {
+    order: 2;
+  }
+  .wrapper-team__button:nth-child(6) {
+    order: 3;
+  }
+  .wrapper-team__button:nth-child(7) {
+    order: 4;
+  }
+}

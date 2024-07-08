@@ -67,7 +67,7 @@ body {
 .fonts {
   position: relative;
   margin: auto;
-  width: 1000px;
+  width: 100%;
   left: 0;
   right: 0;
   top: 50%;
