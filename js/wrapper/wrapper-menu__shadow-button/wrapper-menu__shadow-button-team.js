@@ -17,12 +17,8 @@ var video = document.querySelector("#video");
 var wrapperMenu = document.querySelector(".wrapper-menu");
 var wrapperTeam = document.querySelector(".wrapper-team");
 
-document.addEventListener("DOMContentLoaded", () => {
-  video.setAttribute("autoplay", "autoplay");
-  video.setAttribute("loop", "loop");
-  video.setAttribute("preload", "auto");
-  video.setAttribute("muted", "");
-  video.setAttribute("playsinline", "playsinline");
+buttonTeam.addEventListener("mouseover", function () {
+  teamElem2.classList.add("team__elem2_push_down");
 });
 
 buttonTeam.addEventListener("mouseleave", function () {
@@ -30,12 +26,6 @@ buttonTeam.addEventListener("mouseleave", function () {
 });
 
 buttonTeam.addEventListener("click", function () {
-  setTimeout(changeVideo, 500);
-  function changeVideo() {
-    video.src = "res/background-video-stonehenge.mp4";
-    video.muted = false;
-    video.volume = 1.0;
-  }
   wrapperMenu.classList.add("wrapper-menu_full-opacity");
   setTimeout(hideLeftRightElemtnsFirst, 500);
   function hideLeftRightElemtnsFirst() {
@@ -50,6 +40,7 @@ buttonTeam.addEventListener("click", function () {
         buttonTeam.classList.add("zero-opacity");
         wrapperMenu.classList.add("zero-opacity_long");
         setTimeout(wrapperMenuTeamHide, 1000);
+        window.location.href = "team.html";
         function wrapperMenuTeamHide() {
           wrapperMenu.classList.add("hide-element");
           setTimeout(teamMenuShow, 5000);
