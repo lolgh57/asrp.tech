@@ -29,3 +29,9 @@
   opacity: 1;
   transition: 1s;
 }
+
+@media screen and (max-width: 768px) {
+  .wrapper-menu__shadow-button-text {
+    margin-top: 0.25em;
+  }
+}
