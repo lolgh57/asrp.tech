@@ -1,16 +1,21 @@
+.wrapper-menu__shadow-button-container {
+  position: relative;
+}
 .partners__elem1 {
-    transform: translateY(0px);
-    transition: 1s;
+  transform: translateY(0px);
+  transition: 1s;
 }
 
 .partners__elem2 {
-    transform: translateY(-48.5px);
-    transition: 1s;
-    opacity: 0;
+  position: absolute;
+  z-index: -1;
+  transform: translateY(-48.5px);
+  transition: 1s;
+  opacity: 0;
 }
 
 .partners__elem2_push_down {
-    transform: translateY(-38.4px) rotate(180deg);
-    transition: 1s;
-    opacity: 1;
+  transform: translateY(-38.4px) rotate(180deg);
+  transition: 1s;
+  opacity: 1;
 }

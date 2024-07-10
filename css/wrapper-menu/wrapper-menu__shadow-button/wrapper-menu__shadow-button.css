@@ -1,7 +1,10 @@
 .wrapper-menu__shadow-button {
-    width: 45px;
-    height: 45px;
-    margin:auto;
-    cursor: pointer;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  cursor: pointer;
 }
-

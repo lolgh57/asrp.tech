@@ -1,11 +1,16 @@
+.wrapper-menu__shadow-button-container {
+  position: relative;
+}
 .site-map__elem2 {
-    transform: translateY(-66px);
-    transition: 1s;
-    opacity: 0;
+  position: absolute;
+  z-index: -1;
+  transform: translateY(-66px);
+  transition: 1s;
+  opacity: 0;
 }
 
 .site-map__elem2_push_down {
-    transform: translateY(-53px);
-    transition: 1s;
-    opacity: 1;
+  transform: translateY(-53px);
+  transition: 1s;
+  opacity: 1;
 }
