@@ -1,0 +1,20 @@
+.wrapper__interface {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: auto;
+  height: auto;
+}
+
+.wrapper__menu-button {
+  margin-right: 0px;
+  padding: 10px 15px 10px 20px;
+  background-color: #0a0a0a;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  transition: 0.3s all ease-in-out;
+}
+.wrapper__menu-button:hover {
+  padding: 10px 20px 10px 20px;
+}
