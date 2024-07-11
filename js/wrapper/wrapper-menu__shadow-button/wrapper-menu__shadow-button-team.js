@@ -26,6 +26,9 @@ buttonTeam.addEventListener("mouseleave", function () {
 });
 
 buttonTeam.addEventListener("click", function () {
+  setTimeout(() => (window.location.href = "team.html"), 500);
+});
+buttonTeam.addEventListener("click", function () {
   wrapperMenu.classList.add("wrapper-menu_full-opacity");
   setTimeout(hideLeftRightElemtnsFirst, 500);
   function hideLeftRightElemtnsFirst() {
