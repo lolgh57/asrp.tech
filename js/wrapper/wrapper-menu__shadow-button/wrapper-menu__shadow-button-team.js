@@ -17,27 +17,23 @@ var video = document.querySelector("#video");
 var wrapperMenu = document.querySelector(".wrapper-menu");
 var wrapperTeam = document.querySelector(".wrapper-team");
 
-buttonTeam.addEventListener("mouseover", function () {
-  teamElem2.classList.add("team__elem2_push_down");
-});
-
-buttonTeam.addEventListener("mouseleave", function () {
-  teamElem2.classList.remove("team__elem2_push_down");
-});
-
-// buttonTeam.addEventListener("click", function () {
-//   setTimeout(() => (window.location.href = "team.html"), 500);
-// });
-
 function isIphone() {
   return /iPhone|iPad|iPod/i.test(navigator.userAgent);
 }
 
 if (isIphone()) {
   buttonTeam.addEventListener("click", function () {
+    teamElem2.classList.add("team__elem2_push_down");
     setTimeout(() => (window.location.href = "team.html"), 500);
   });
 } else {
+  buttonTeam.addEventListener("mouseover", function () {
+    teamElem2.classList.add("team__elem2_push_down");
+  });
+
+  buttonTeam.addEventListener("mouseleave", function () {
+    teamElem2.classList.remove("team__elem2_push_down");
+  });
   buttonTeam.addEventListener("click", function () {
     wrapperMenu.classList.add("wrapper-menu_full-opacity");
     setTimeout(hideLeftRightElemtnsFirst, 500);
