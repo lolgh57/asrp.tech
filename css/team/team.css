@@ -1,7 +1,4 @@
-@import "../preloader.css";
-@import "../background-pyromide.css";
-@import "../wrapper/wrapper__menu-button.css";
-@import "../team/team-menu.css";
+@import "../optimal-styles.css";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
 body,
 .wrapper {
@@ -12,6 +9,9 @@ body,
 }
 .wrapper {
   position: relative;
+}
+.wrapper-menu {
+  opacity: 0.8;
 }
 .header {
   width: 100%;
@@ -125,7 +125,7 @@ body,
   height: auto;
   position: relative;
   transition: 1s;
-  z-index: 1;
+  z-index: 0;
 }
 .team__symbol:hover::after {
   transform: rotate(180deg);
@@ -142,4 +142,11 @@ body,
   content: url("/img/team__elem1.svg");
   transition: 1s;
   z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+  .team__title--text {
+    font-size: 2em;
+    line-height: 55px;
+  }
 }

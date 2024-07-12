@@ -33,20 +33,20 @@ var video = document.querySelector("#video");
 var wrapperMenu = document.querySelector(".wrapper-menu");
 var wrapperTeam = document.querySelector(".wrapper-team");
 
-document.addEventListener("DOMContentLoaded", () => {
-  video.setAttribute("autoplay", "autoplay");
-  video.setAttribute("loop", "loop");
-  video.setAttribute("preload", "auto");
-  video.setAttribute("muted", "");
-  video.setAttribute("playsinline", "playsinline");
-});
-
 buttonProducts.addEventListener("mouseover", function () {
   productsElem2.classList.add("products__elem2_push");
 });
 
 buttonProducts.addEventListener("mouseleave", function () {
   productsElem2.classList.remove("products__elem2_push");
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  video.setAttribute("autoplay", "autoplay");
+  video.setAttribute("loop", "loop");
+  video.setAttribute("preload", "auto");
+  video.setAttribute("muted", "");
+  video.setAttribute("playsinline", "playsinline");
 });
 
 buttonProducts.addEventListener("click", function () {
